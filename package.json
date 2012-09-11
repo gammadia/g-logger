@@ -1,0 +1,20 @@
+{
+  "name": "g-logger",
+  "version": "0.0.1",
+  "description": "Gestion des logs de l'application. Encapsule Bunyan.",
+  "main": "index.js",
+  "repository": {
+    "type":         "svn",
+    "url":          "svn+ssh://www.gammadia-svn.net/var/svn/gammadia/node_modules/g-logger/trunk/"
+  },
+  "publishConfig": {
+    "registry":     "http://npm.gammadia.ch/"
+  },
+  "engines": {
+    "node":         ">=0.8.0"
+  },
+  "dependencies": {
+    "bunyan":       "0.10.x",
+    "node.extend":  "1.0.x"
+  }
+}
