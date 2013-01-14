@@ -1,6 +1,6 @@
 {
   "name": "g-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gestion des logs de l'application. Encapsule Bunyan.",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,7 @@
     "node":         ">=0.8.0"
   },
   "dependencies": {
-    "bunyan":       "0.10.x",
+    "bunyan":       "0.17.x",
     "node.extend":  "1.0.x"
   }
 }
