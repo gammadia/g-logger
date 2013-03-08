@@ -1,4 +1,4 @@
-/*jslint node: true */
+/*jslint node: true, white: true */
 /**
  *	Module de log.
  *
