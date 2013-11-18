@@ -1,11 +1,11 @@
 {
   "name": "g-logger",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Gestion des logs de l'application. Encapsule Bunyan.",
   "main": "index.js",
   "repository": {
-    "type":         "svn",
-    "url":          "svn+ssh://www.gammadia-svn.net/var/svn/gammadia/node_modules/g-logger/trunk/"
+    "type":         "git",
+    "url":          "ssh://git@stash.gammadia.ch:7999/nodmod/g-logger.git"
   },
   "publishConfig": {
     "registry":     "http://npm:uOe5y3Vw1q2n6n43XD41734P854Ow5@npm.gammadia.ch:5984/registry/_design/app/_rewrite/"
@@ -14,7 +14,7 @@
     "node":         ">=0.8.0"
   },
   "dependencies": {
-    "bunyan":       "0.17.x",
+    "bunyan":       "*",
     "node.extend":  "1.0.x"
   }
 }
