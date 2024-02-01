@@ -1,11 +1,11 @@
 {
   "name": "g-logger",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Gestion des logs de l'application. Encapsule Bunyan.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.gammadia.ch:7999/nodmod/g-logger.git"
+    "url": "ssh://git@github.com:tipee-sa/g-logger.git"
   },
   "license": "UNLICENSED",
   "private": true,
